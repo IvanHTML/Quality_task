@@ -1,0 +1,31 @@
+.block3 {
+    position: absolute;
+    width: 1170px;
+    height: 185px;
+    left: 0px;
+    top: 943px;
+    &__content {
+        width: 1170px;
+        height: 100px;
+        left: 0px;
+        top: 1028px;
+        background: #D87FF7;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 45px;
+        color: #FFFFFF;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style-type: none;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 45px;
+            color: #F3F3F3;
+            padding: 28px 210px;
+        }
+    }
+}

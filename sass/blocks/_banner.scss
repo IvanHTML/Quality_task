@@ -1,0 +1,27 @@
+.banner {
+    position: absolute;
+    width: 1170px;
+    height: 176px;
+    left: 0px;
+    top: 188px;
+    background: #7029CB;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+        &-text { 
+            font-style: normal;
+            font-weight: 700;
+            font-size: 45px;
+            line-height: 45px;
+            color: #FFFFFF;
+            margin-right: 32px;
+        }
+        &-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

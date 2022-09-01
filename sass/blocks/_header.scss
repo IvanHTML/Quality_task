@@ -1,0 +1,32 @@
+.header {
+    position: relative;
+    width: 1170px;
+    height: 148px;
+    background-color: #B47FF6;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    &__menu {
+        width: 285px;
+        height: 45px;
+        margin-left: 155px;
+        margin-right: 270px;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style-type: none;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 45px;
+            color: #F3F3F3;
+        }
+    }
+    .hamburger {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 55px;
+    }
+}

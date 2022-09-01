@@ -1,0 +1,26 @@
+.block4 {
+    position: absolute;
+    width: 1120px;
+    height: 333px;
+    left: 25px;
+    top: 1168px;
+    &__frame {
+        width: 1120px;
+        height: 248px;
+        background: #D4FF5A;
+        border-radius: 30px;
+        padding: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-item {
+            width: 100%;
+            height: 100%;
+            background: #497957;
+            border: 2px solid #00FF4A;
+            box-shadow: 2px 5px 10px #497957;
+            border-radius: 35px;
+            margin: 0 10px;
+        }
+    }
+}

@@ -1,0 +1,71 @@
+.block2 {
+    position: absolute;
+    width: 1170px;
+    height: 499px;
+    left: 0px;
+    top: 404px;
+    // &__title {
+    //     font-style: normal;
+    //     font-weight: 600;
+    //     font-size: 30px;
+    //     line-height: 45px;
+    //     color: #FFFFFF;
+    //     text-align: center;
+    // }
+    &__blocks {
+        position: relative;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 53px;
+        line-height: 198px;
+        color: #FFFFFF;
+        text-align: center;
+        
+        &-1 {
+            position: absolute;
+            width: 392px;
+            height: 198px;
+            left: 0px;
+            top: 0px;
+            background: #3ADE4B;
+            &:before {
+                content: '1';
+            }
+            
+        }
+        &-2 {
+            position: absolute;
+            width: 765px;
+            height: 198px;
+            left: 405px;
+            top: 0px;
+            background: #3ADE4B;
+            &:before {
+                content: '2';
+            }
+        }
+        &-4 {
+            position: absolute;
+            width: 995px;
+            height: 198px;
+            left: 0px;
+            top: 215px;
+            background: #3ADE4B;
+            &:before {
+                content: '4';
+            }
+        }
+        &-5 {
+            position: absolute;
+            width: 158px;
+            height: 198px;
+            left: 1012px;
+            top: 216px;
+            background: #3ADE4B;
+            &:before {
+                content: '5';
+            }
+        }
+    }
+}
